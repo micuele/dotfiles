@@ -7,6 +7,9 @@ source /usr/share/bash-completion/bash_completion
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
+export QT_QPA_PLATFORM=xcb
+
+
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
